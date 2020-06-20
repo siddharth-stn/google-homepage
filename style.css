@@ -12,10 +12,11 @@ header {
 }
 
 nav {
+    align-items: center;
     font-size: 0.9rem;
     display: flex;
     justify-content: space-evenly;
-    width: 20%;
+    width: 140px;
 }
 
 nav ul {
@@ -30,14 +31,107 @@ nav a {
     text-decoration: none;
 }
 
+header img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
 main {
+    margin-top: -130px;
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: space-around;
     align-items: center;
+ }
+
+main div img {
+    width: 100%;
+    height: auto;
 }
 
-main img {
-    width: 20%;
+form {
+    margin-left: -30px;
+}
+
+#search input {
+    width: 120%;
+    line-height: 2.3rem;
+    margin-bottom: 10%;
+}
+
+#btn-div {
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#btn-div button {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    color: #5f6368;
+    background-color: #f2f2f2;
+    border-radius: 5%;
+    width: 45%;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#languages {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    flex-wrap: nowrap;
+    font-size: 1.1rem;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+#first-div-footer {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#second-div-footer {
+    flex-wrap: nowrap;
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ul-one {
+    width: 30%;
+    flex-wrap: nowrap;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#ul-two {
+    width: 15%;
+    flex-wrap: nowrap;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 }
