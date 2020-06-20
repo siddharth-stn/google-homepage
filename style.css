@@ -33,6 +33,11 @@ nav a {
 main {
     display: flex;
     flex-direction: column;
-    width: 100vh;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
 }
 
+main img {
+    width: 20%;
+}
